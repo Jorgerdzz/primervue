@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HolaMundo />
+  <div>
+    <h1 style="color:red">Elemento estático</h1>
+    <MenuComponent />
+    <hr/>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import HolaMundo from './components/HolaMundo.vue'
+import MenuComponent from './components/MenuComponent.vue'
+
+
 
 export default {
   name: 'App',
   components: {
-    HolaMundo
+    MenuComponent
   }
 }
 </script>
