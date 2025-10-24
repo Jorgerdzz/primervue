@@ -29,5 +29,6 @@
 <style>
     ul#menu li{
         display: inline;
+        margin: 1em
     }
 </style>
