@@ -5,6 +5,7 @@ import CicloVida from './components/CicloVida.vue';
 import DirectivasComponent from './components/DirectivasComponent.vue';
 import ParImpar from "./components/ParImpar.vue";
 import PropiedadConmutada from "./components/PropiedadConmutada.vue";
+import MetodosFilter from "./components/MetodosFilters.vue";
 
 import { createRouter, createWebHistory } from 'vue-router';
 
@@ -15,7 +16,8 @@ const rutas = [
     {path: "/ciclovida", component: CicloVida},
     {path: "/directivas", component: DirectivasComponent},
     {path: "/parimpar", component: ParImpar},
-    {path: "/propiedadconmutada", component: PropiedadConmutada}
+    {path: "/propiedadconmutada", component: PropiedadConmutada},
+    {path: "/metodosfilters", component: MetodosFilter}
 ]
 
 const router = createRouter({
