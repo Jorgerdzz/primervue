@@ -3,6 +3,7 @@ import CineComponent from './components/CineComponent.vue';
 import MusicaComponent from './components/MusicaComponent.vue';
 import CicloVida from './components/CicloVida.vue';
 import DirectivasComponent from './components/DirectivasComponent.vue';
+import ParImpar from "./components/ParImpar.vue";
 
 import { createRouter, createWebHistory } from 'vue-router';
 
@@ -11,7 +12,8 @@ const rutas = [
     {path: "/cine", component: CineComponent},
     {path: "/musica", component: MusicaComponent},
     {path: "/ciclovida", component: CicloVida},
-    {path: "/directivas", component: DirectivasComponent}
+    {path: "/directivas", component: DirectivasComponent},
+    {path: "/parimpar", component: ParImpar}
 ]
 
 const router = createRouter({
